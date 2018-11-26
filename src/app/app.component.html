@@ -1,6 +1,6 @@
 <div class="container">
 	<h2>Crear nuevo cliente</h2>
-	<form method="POST" (ngSubmit)="onSubmit()" #clienteForm="ngForm">
+	<form method="POST" #clienteForm="ngForm">
 		<div class="form-group">
 			<label>Número de cédula</label>
 			<input type="number" min="0" [(ngModel)]="cliente.numero_cedula" name="numero_cedula" class="form-control" required>
